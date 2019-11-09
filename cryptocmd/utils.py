@@ -151,7 +151,7 @@ def extract_data(html):
 
         rows.append(row)
 
-    end_date, start_date = rows[0][0], rows[-1][0]
+    end_date, start_date = rows[1][0], rows[0][0]
 
     return end_date, start_date, headers, rows
 
